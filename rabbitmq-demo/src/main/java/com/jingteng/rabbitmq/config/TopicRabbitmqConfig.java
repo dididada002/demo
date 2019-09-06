@@ -15,7 +15,7 @@ import org.springframework.context.annotation.Configuration;
 public class TopicRabbitmqConfig {
 
     final static String message = "topic.message";
-    final static String messages = "topic.message.";
+    final static String messages = "topic.messages";
 
     @Bean
     public Queue queueMessage(){
